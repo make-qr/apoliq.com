@@ -41,6 +41,30 @@ a:hover {
   color: var(--green);
 }
 
+.brand,
+.brand:hover,
+.brand:focus,
+.brand:active {
+  color: inherit !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+  filter: none !important;
+  transform: none !important;
+}
+
+.brand .brand-text,
+.brand .brand-text strong,
+.brand .brand-text span,
+.brand:hover .brand-text,
+.brand:hover .brand-text strong,
+.brand:hover .brand-text span,
+.brand:focus .brand-text strong,
+.brand:focus .brand-text span {
+  color: inherit !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
 img {
   max-width: 100%;
   display: block;
