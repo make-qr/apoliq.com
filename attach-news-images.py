@@ -33,7 +33,7 @@ def slug_of(path: Path) -> str:
 
 
 def unique_seed(slug: str, role: str) -> int:
-    h = hashlib.sha256(f"{slug}|{role}|apoliq-news-v1".encode()).hexdigest()
+    h = hashlib.sha256(f"{slug}|{role}|apoliq-news-v3".encode()).hexdigest()
     return int(h[:8], 16)
 
 
@@ -64,31 +64,36 @@ def make_unique_image(slug: str, role: str, width: int, height: int, title: str)
     # unique geometric overlays
     overlay = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     od = ImageDraw.Draw(overlay)
-    n_shapes = 5 + (seed % 6)
+    n_shapes = 14 + (seed % 10)
     for i in range(n_shapes):
         s2 = (seed * (i + 3) * 2654435761) & 0xFFFFFFFF
         x0 = s2 % width
         y0 = (s2 >> 9) % height
-        w = 40 + (s2 >> 17) % (width // 3)
-        h = 30 + (s2 >> 23) % (height // 3)
-        alpha = 40 + (s2 % 70)
+        # Keep shapes relatively small so 72px thumbs still look patterned, not a solid blob
+        w = 28 + (s2 >> 17) % 120
+        h = 22 + (s2 >> 23) % 100
+        alpha = 55 + (s2 % 80)
         fill = (rng_r, rng_g, rng_b, alpha) if i % 2 == 0 else (c2[0], c2[1], c2[2], alpha)
         shape = (s2 >> 3) % 4
         if shape == 0:
             od.ellipse([x0 - w // 2, y0 - h // 2, x0 + w // 2, y0 + h // 2], fill=fill)
         elif shape == 1:
-            od.rectangle([x0, y0, x0 + w, y0 + h], fill=fill)
+            od.rectangle([x0, y0, min(width, x0 + w), min(height, y0 + h)], fill=fill)
         elif shape == 2:
             od.polygon(
                 [(x0, y0 + h), (x0 + w // 2, y0), (x0 + w, y0 + h)],
                 fill=fill,
             )
         else:
-            od.rounded_rectangle([x0, y0, x0 + w, y0 + h], radius=18, fill=fill)
+            od.rounded_rectangle([x0, y0, min(width, x0 + w), min(height, y0 + h)], radius=12, fill=fill)
 
-    # soft light band unique position
-    band_y = (seed % (height - 80)) + 20
-    od.rectangle([0, band_y, width, band_y + 50], fill=(255, 255, 255, 28))
+    # soft light band unique position — thin, not a caption bar
+    band_y = (seed % (height - 40)) + 10
+    od.rectangle([0, band_y, width, band_y + 18], fill=(255, 255, 255, 22))
+
+    # corner accent so thumbs stay distinct
+    od.ellipse([width - 160, -40, width + 40, 160], fill=(255, 255, 255, 35))
+    od.ellipse([-60, height - 140, 140, height + 40], fill=(0, 0, 0, 28))
 
     img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
     img = img.filter(ImageFilter.GaussianBlur(radius=0.6))
@@ -124,13 +129,12 @@ def inject_images(html: str, slug: str, title: str) -> str:
 
     featured = (
         f'\n<figure class="news-featured">\n'
-        f'  <img src="{hero_rel}" alt="{title}" width="960" height="540" loading="eager">\n'
+        f'  <img src="{hero_rel}?v=3" alt="{title}" width="960" height="540" loading="eager">\n'
         f"</figure>\n"
     )
     inline = (
         f'\n<figure class="news-inline">\n'
-        f'  <img src="{inline_rel}" alt="{title} — minh họa" width="960" height="540" loading="lazy">\n'
-        f'  <figcaption>Hình minh họa chuyên đề — Apoliq</figcaption>\n'
+        f'  <img src="{inline_rel}?v=3" alt="{title} — minh họa" width="960" height="540" loading="lazy">\n'
         f"</figure>\n"
     )
 
@@ -178,7 +182,7 @@ def rebuild_index(articles: list[tuple[str, str]]):
         items.append(
             f'''        <li class="news-item-card">
           <a class="news-item-link" href="{fn}">
-            <img class="news-thumb-img" src="../images/tin-tuc/{slug}-hero.jpg" alt="{title}" width="160" height="100" loading="lazy">
+            <img class="news-thumb-img" src="../images/tin-tuc/{slug}-hero.jpg?v=3" alt="{title}" width="160" height="100" loading="lazy">
             <span class="news-item-title">{title}</span>
           </a>
         </li>'''
@@ -231,7 +235,7 @@ def update_homepage(articles: list[tuple[str, str]]):
         slug = Path(fn).stem
         html = re.sub(
             r'(<div class="panel-body feature-card">\s*)(?:<img[^>]*>|<div class="visual"[\s\S]*?</div>)',
-            rf'\1<img src="images/tin-tuc/{slug}-hero.jpg" alt="{title}" loading="lazy">',
+            rf'\1<img src="images/tin-tuc/{slug}-hero.jpg?v=3" alt="{title}" width="960" height="540" loading="lazy">',
             html,
             count=1,
         )
@@ -244,7 +248,7 @@ def update_homepage(articles: list[tuple[str, str]]):
         slug = Path(hm.group(1)).stem
         return re.sub(
             r'<div class="news-thumb">[^<]*</div>',
-            f'<img class="news-thumb-img" src="images/tin-tuc/{slug}-hero.jpg" alt="" width="72" height="72" loading="lazy">',
+            f'<img class="news-thumb-img" src="images/tin-tuc/{slug}-hero.jpg?v=3" alt="" width="72" height="72" loading="lazy">',
             block,
             count=1,
         )

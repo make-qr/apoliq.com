@@ -205,17 +205,6 @@
   margin-bottom: 1.25rem;
 }
 
-.news-inline figcaption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.45rem 0.75rem;
-  font-size: 0.8rem;
-  color: #fff;
-  background: linear-gradient(transparent, rgba(8, 40, 48, 0.75));
-}
-
 /* Listing with photos */
 .news-list-photos {
   display: grid;
