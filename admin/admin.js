@@ -7,8 +7,8 @@
 
   const STORAGE_KEY = "apoliq_admin_auth";
   const CACHE_V = "7";
-  const CSS_V = "20260807g";
-  const NEWS_CSS_V = "20260807e";
+  const CSS_V = "20260807i";
+  const NEWS_CSS_V = "20260807i";
 
   const $ = (id) => document.getElementById(id);
 

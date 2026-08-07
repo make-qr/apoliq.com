@@ -586,35 +586,116 @@ img:not([width]):not([height]):not(.news-thumb-img):not(.media-frame img) {
   padding: 0.65rem 1.1rem;
   border-radius: 8px;
   font-weight: 700;
-  border: 0;
+  border: 1.5px solid transparent;
   cursor: pointer;
   font-family: inherit;
+  line-height: 1.25;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
+}
+
+/* Không để a:hover đổi màu chữ nút */
+a.btn:hover,
+a.btn:focus,
+a.btn:active {
+  text-decoration: none;
 }
 
 .btn-primary {
   background: var(--green);
   color: var(--white);
+  border-color: var(--green);
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+a.btn-primary:hover {
   background: var(--green-dark);
   color: var(--white);
+  border-color: var(--green-dark);
 }
 
 .btn-secondary {
   background: var(--cyan);
   color: var(--white);
+  border-color: var(--cyan);
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+a.btn-secondary:hover {
   background: var(--cyan-dark);
   color: var(--white);
+  border-color: var(--cyan-dark);
 }
 
 .btn-outline {
   background: transparent;
-  border: 1.5px solid var(--cyan);
+  border-color: var(--cyan);
   color: var(--cyan-deep);
+}
+
+.btn-outline:hover,
+a.btn-outline:hover {
+  background: var(--cyan-deep);
+  color: var(--white);
+  border-color: var(--cyan-deep);
+}
+
+/* Nút gọi / secondary dùng trên nền sáng (tin tức, tile…) */
+.btn-hero-primary {
+  background: var(--green);
+  color: #fff;
+  border-color: var(--green);
+}
+
+.btn-hero-primary:hover,
+a.btn-hero-primary:hover {
+  background: var(--green-dark);
+  color: #fff;
+  border-color: var(--green-dark);
+}
+
+.btn-hero-secondary {
+  background: #fff;
+  color: var(--cyan-deep);
+  border-color: var(--cyan-deep);
+}
+
+.btn-hero-secondary:hover,
+a.btn-hero-secondary:hover {
+  background: var(--cyan-deep);
+  color: #fff;
+  border-color: var(--cyan-deep);
+}
+
+.btn-hero-zalo {
+  background: #0068ff;
+  color: #fff;
+  border-color: #0068ff;
+}
+
+.btn-hero-zalo:hover,
+a.btn-hero-zalo:hover {
+  background: #0055d4;
+  color: #fff;
+  border-color: #0055d4;
+}
+
+.btn-hotline {
+  background: var(--green);
+  color: #fff;
+  border-color: var(--green);
+}
+
+.btn-hotline:hover,
+a.btn-hotline:hover {
+  background: var(--green-dark);
+  color: #fff;
+  border-color: var(--green-dark);
 }
 
 /* Inner pages */

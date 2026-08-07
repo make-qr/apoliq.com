@@ -123,6 +123,39 @@
   margin-top: 0.75rem;
 }
 
+/* CTA tin tức nằm trên nền sáng — không dùng ghost trắng (mất chữ khi hover) */
+.news-cta-actions .btn-hero-primary,
+.news-aside-cta .btn-hero-primary {
+  background: var(--green);
+  color: #fff;
+  border: 1.5px solid var(--green);
+}
+
+.news-cta-actions .btn-hero-primary:hover,
+.news-aside-cta .btn-hero-primary:hover,
+a.news-cta-actions .btn-hero-primary:hover,
+a.news-aside-cta .btn-hero-primary:hover {
+  background: var(--green-dark, #067a38);
+  color: #fff;
+  border-color: var(--green-dark, #067a38);
+}
+
+.news-cta-actions .btn-hero-secondary,
+.news-aside-cta .btn-hero-secondary {
+  background: #fff;
+  color: var(--cyan-deep);
+  border: 1.5px solid var(--cyan-deep);
+}
+
+.news-cta-actions .btn-hero-secondary:hover,
+.news-aside-cta .btn-hero-secondary:hover,
+a.news-cta-actions .btn-hero-secondary:hover,
+a.news-aside-cta .btn-hero-secondary:hover {
+  background: var(--cyan-deep);
+  color: #fff;
+  border-color: var(--cyan-deep);
+}
+
 .news-related {
   padding: 0 0 2.5rem;
 }
