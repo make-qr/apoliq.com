@@ -9,10 +9,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 TL = Path("/home/vananh/huong-dan/he-thong-du-an/03_KiemNghiem/kiemnghiem-techlab")
 
-PHONE_D = "+1819-602-9641"
-PHONE_T = "+18196029641"
+PHONE_D = "0901 339 669"
+PHONE_T = "+84901339669"
 EMAIL = "info@apoliq.com"
-ADDR = "K2-15 đường Võ Nguyên Giáp, phường Phú Thứ, quận Cái Răng, thành phố Cần Thơ"
+ADDR = "K2-15 Võ Nguyên Giáp, P. Hưng Phú, TP. Cần Thơ"
 BRAND = "Apoliq"
 BRAND_FULL = "APOLIQ SCIENCE AND TECHNOLOGY JOINT STOCK COMPANY"
 BRAND_VI = "Công ty Cổ phần Khoa học và Công nghệ Apoliq"
@@ -94,10 +94,10 @@ def rebrand(text: str) -> str:
         ("https://formsubmit.co/cc4dea94548699c59cc882053a7052fe", f"mailto:{EMAIL}"),
         ("Hà Nội: Tòa nhà 9 tầng, Km11, Quốc Lộ 21", f"Cần Thơ: {ADDR}"),
         ("Cần Thơ: Số CC-15, đường số 12, KDC công ty 8, KV2, P. Hưng Thạnh", f"Trụ sở: {ADDR}"),
-        ("HCM: Lô II-1, Đường số 1, KCN Tân Bình, P. Tây Thạnh", "Nhận yêu cầu toàn quốc qua hotline / email"),
-        ("Nhận mẫu HN · CT · HCM", "Nhận yêu cầu toàn quốc · Trụ sở Cần Thơ"),
-        ("Nhận mẫu HN·CT·HCM", "Nhận yêu cầu toàn quốc"),
-        ("Hà Nội, Cần Thơ, Hồ Chí Minh", "Cần Thơ và toàn quốc"),
+        ("HCM: Lô II-1, Đường số 1, KCN Tân Bình, P. Tây Thạnh", "Nhận mẫu CT · HN · HCM qua hotline / email"),
+        ("Nhận mẫu CT · HN · HCM", "Nhận mẫu CT · HN · HCM"),
+        ("Nhận mẫu HN·CT·HCM", "Nhận mẫu CT · HN · HCM"),
+        ("Hà Nội, Cần Thơ, Hồ Chí Minh", "Cần Thơ (trụ sở) · Hà Nội · Hồ Chí Minh"),
         ("Chat Zalo", "Gửi email"),
         ("Chat với chúng tôi qua Zalo", "Liên hệ email"),
         ("Chat với chúng tôi qua Messenger", "Gọi hotline"),

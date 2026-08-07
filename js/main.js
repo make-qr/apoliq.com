@@ -1,17 +1,21 @@
 (function () {
-  const PHONE_DISPLAY = "+1819-602-9641";
-  const PHONE_TEL = "+18196029641";
+  const PHONE_CT_DISPLAY = "0901 339 669";
+  const PHONE_CT_TEL = "+84901339669";
+  const PHONE_HN_DISPLAY = "0899 551 228";
+  const PHONE_HN_TEL = "+84899551228";
+  const PHONE_HCM_DISPLAY = "0907.61.69.69";
+  const PHONE_HCM_TEL = "+84907616969";
   const EMAIL = "info@apoliq.com";
-  const ADDRESS =
-    "K2-15 đường Võ Nguyên Giáp, phường Phú Thứ, quận Cái Răng, thành phố Cần Thơ";
+  const ADDR_CT =
+    "K2-15 Võ Nguyên Giáp, P. Hưng Phú, TP. Cần Thơ";
+  const ADDR_HN =
+    "Km 11, Quốc lộ 21, Thôn 2, Xã Yên Xuân, Thành phố Hà Nội, Việt Nam";
+  const ADDR_HCM =
+    "Lô II-1, Đường số 1, Nhóm CN2, Khu công nghiệp Tân Bình, Phường Tây Thạnh, Thành phố Hồ Chí Minh, Việt Nam";
 
   function depthPrefix() {
     const depth = Number(document.body.dataset.depth || "0");
     return "../".repeat(depth);
-  }
-
-  function p(path) {
-    return depthPrefix() + path;
   }
 
   function headerHTML() {
@@ -91,31 +95,34 @@
     const root = depthPrefix();
     return `
 <footer class="site-footer">
-  <div class="container footer-grid">
+  <div class="container footer-grid footer-grid-contact">
     <div>
-      <h3>APOLIQ SCIENCE AND TECHNOLOGY JSC</h3>
-      <p>${ADDRESS}</p>
-      <p>Hotline: <a href="tel:${PHONE_TEL}">${PHONE_DISPLAY}</a></p>
+      <h3>Trụ sở chính — Cần Thơ</h3>
+      <p>${ADDR_CT}</p>
+      <p>Hotline: <a href="tel:${PHONE_CT_TEL}">${PHONE_CT_DISPLAY}</a></p>
+      <p>Điện thoại: <a href="tel:${PHONE_CT_TEL}">${PHONE_CT_DISPLAY}</a></p>
       <p>Email: <a href="mailto:${EMAIL}">${EMAIL}</a></p>
     </div>
     <div>
-      <h3>Dịch vụ</h3>
-      <ul>
-        <li><a href="${root}dich-vu/kiem-nghiem/index.html">Kiểm nghiệm</a></li>
-        <li><a href="${root}dich-vu/chung-nhan/index.html">Chứng nhận</a></li>
-        <li><a href="${root}dich-vu/moi-truong/index.html">Môi trường</a></li>
-        <li><a href="${root}nang-luc/index.html">Năng lực</a></li>
-      </ul>
+      <h3>Chi nhánh Hà Nội</h3>
+      <p>${ADDR_HN}</p>
+      <p>Hotline: <a href="tel:${PHONE_HN_TEL}">${PHONE_HN_DISPLAY}</a></p>
+      <p>Điện thoại: <a href="tel:${PHONE_HN_TEL}">${PHONE_HN_DISPLAY}</a></p>
     </div>
     <div>
-      <h3>Liên kết</h3>
-      <ul>
-        <li><a href="${root}gioi-thieu/index.html">Giới thiệu</a></li>
-        <li><a href="${root}tin-tuc/index.html">Tin tức</a></li>
-        <li><a href="${root}van-ban/index.html">Văn bản</a></li>
-        <li><a href="${root}lien-he/index.html">Liên hệ / Báo giá</a></li>
-      </ul>
+      <h3>Chi nhánh Hồ Chí Minh</h3>
+      <p>${ADDR_HCM}</p>
+      <p>Hotline: <a href="tel:${PHONE_HCM_TEL}">${PHONE_HCM_DISPLAY}</a></p>
+      <p>Điện thoại: <a href="tel:${PHONE_HCM_TEL}">${PHONE_HCM_DISPLAY}</a></p>
     </div>
+  </div>
+  <div class="container footer-links-row">
+    <a href="${root}dich-vu/kiem-nghiem/index.html">Kiểm nghiệm</a>
+    <a href="${root}dich-vu/chung-nhan/index.html">Chứng nhận</a>
+    <a href="${root}dich-vu/moi-truong/index.html">Môi trường</a>
+    <a href="${root}nang-luc/index.html">Năng lực</a>
+    <a href="${root}tin-tuc/index.html">Tin tức</a>
+    <a href="${root}lien-he/index.html">Liên hệ / Báo giá</a>
   </div>
   <div class="container footer-bottom">
     © ${new Date().getFullYear()} Apoliq Science and Technology Joint Stock Company. All rights reserved.

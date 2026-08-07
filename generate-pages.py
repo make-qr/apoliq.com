@@ -349,7 +349,7 @@ def service_page(cat, item):
           <li>Trả kết quả hoặc bàn giao hồ sơ; hỗ trợ bước tiếp theo nếu cần.</li>
         </ol>
         <p><a class="btn btn-primary" href="../../lien-he/index.html">Nhận báo giá</a>
-           <a class="btn btn-secondary" href="tel:+18196029641">Gọi +1819-602-9641</a></p>
+           <a class="btn btn-secondary" href="tel:+84901339669">Gọi 0901 339 669</a></p>
       </article>
       <aside class="side-card">
         <h3>Cùng nhóm dịch vụ</h3>
@@ -434,8 +434,8 @@ def main():
         <li>Phục vụ doanh nghiệp tại Cần Thơ và các tỉnh thành khác.</li>
       </ul>
       <h2>Trụ sở</h2>
-      <p>K2-15 đường Võ Nguyên Giáp, phường Phú Thứ, quận Cái Răng, thành phố Cần Thơ</p>
-      <p>Hotline: <a href="tel:+18196029641">+1819-602-9641</a> · Email: <a href="mailto:info@apoliq.com">info@apoliq.com</a></p>
+      <p>K2-15 Võ Nguyên Giáp, P. Hưng Phú, TP. Cần Thơ</p>
+      <p>Hotline: <a href="tel:+84901339669">0901 339 669</a> · Email: <a href="mailto:info@apoliq.com">info@apoliq.com</a></p>
     </div>
   </section>
 """,
@@ -599,8 +599,8 @@ def main():
     <div class="container content-grid">
       <div>
         <div class="contact-box" style="margin-bottom:1.2rem">
-          <div><strong>Địa chỉ</strong><br>K2-15 đường Võ Nguyên Giáp, phường Phú Thứ, quận Cái Răng, thành phố Cần Thơ</div>
-          <div><strong>Điện thoại</strong><br><a href="tel:+18196029641">+1819-602-9641</a></div>
+          <div><strong>Địa chỉ</strong><br>K2-15 Võ Nguyên Giáp, P. Hưng Phú, TP. Cần Thơ</div>
+          <div><strong>Điện thoại</strong><br><a href="tel:+84901339669">0901 339 669</a></div>
           <div><strong>Email</strong><br><a href="mailto:info@apoliq.com">info@apoliq.com</a></div>
         </div>
         <form class="quote-form" action="mailto:info@apoliq.com" method="post" enctype="text/plain">
@@ -642,7 +642,7 @@ def main():
   <div class="ticker">
     <div class="container" style="display:flex;align-items:center;gap:.75rem;width:min(100% - 2rem,1180px)">
       <span class="ticker-badge">TIN HOT</span>
-      <div class="ticker-track"><span>Apoliq nhận yêu cầu kiểm nghiệm thực phẩm, nước uống, mỹ phẩm · Tư vấn HACCP / ISO 22000 / VietGAP · Quan trắc &amp; tư vấn môi trường · Hotline +1819-602-9641 · info@apoliq.com</span></div>
+      <div class="ticker-track"><span>Apoliq nhận yêu cầu kiểm nghiệm thực phẩm, nước uống, mỹ phẩm · Tư vấn HACCP / ISO 22000 / VietGAP · Quan trắc &amp; tư vấn môi trường · Hotline 0901 339 669 · info@apoliq.com</span></div>
     </div>
   </div>
 
@@ -685,7 +685,7 @@ def main():
     <div class="panel">
       <div class="hotline-box">
         <div class="label">Hotline tư vấn</div>
-        <a href="tel:+18196029641">+1819-602-9641</a>
+        <a href="tel:+84901339669">0901 339 669</a>
       </div>
       <div class="quick-links">
         <a href="dich-vu/kiem-nghiem/index.html"><span class="ico">KN</span>Danh mục kiểm nghiệm</a>
@@ -771,8 +771,8 @@ URL: https://apoliq.com/
 
 ## Liên hệ
 
-- K2-15 đường Võ Nguyên Giáp, phường Phú Thứ, quận Cái Răng, TP. Cần Thơ
-- +1819-602-9641
+- K2-15 Võ Nguyên Giáp, P. Hưng Phú, TP. Cần Thơ
+- 0901 339 669
 - info@apoliq.com
 """,
     )

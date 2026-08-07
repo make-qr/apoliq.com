@@ -764,12 +764,37 @@ form.quote-form select {
   margin: 0.35rem 0;
 }
 
+.footer-grid-contact {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+}
+
+.footer-links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-links-row a {
+  color: #b9e5eb;
+  font-size: 0.9rem;
+}
+
 .footer-bottom {
   margin-top: 1.5rem;
   padding-top: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   font-size: 0.85rem;
   opacity: 0.85;
+}
+
+@media (max-width: 980px) {
+  .footer-grid-contact {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 980px) {

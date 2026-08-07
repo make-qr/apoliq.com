@@ -1,28 +1,23 @@
-# Apoliq — Website đầy đủ
+# Apoliq — Website
 
-Portal kiểu [nifc.gov.vn](https://nifc.gov.vn/) + nội dung dịch vụ/tin tức dày (catalog giống TechLAB), brand **APOLIQ SCIENCE AND TECHNOLOGY JOINT STOCK COMPANY**.
+Portal tĩnh của **APOLIQ SCIENCE AND TECHNOLOGY JOINT STOCK COMPANY**.
 
 ## Live
 
-- GitHub Pages: https://apoliq.com/
+- https://apoliq.com/
 - Repo: https://github.com/make-qr/apoliq.com
-
-## Menu dịch vụ (chỉ hiện việc đang có)
-
-- Kiểm nghiệm (+ hướng dẫn gửi mẫu)
-- Chứng nhận (HACCP, ISO 22000, VietGAP, Organic, Halal, SMETA)
-- Môi trường (quan trắc, tư vấn)
-
-Không có trên menu: hiệu chuẩn, giám định, TNTT, mẫu chuẩn, kiểm tra hàng nhập…
-
-## Build lại
-
-```bash
-python3 build-full-site.py
-```
 
 ## Liên hệ
 
-- K2-15 đường Võ Nguyên Giáp, phường Phú Thứ, quận Cái Răng, thành phố Cần Thơ
-- +1819-602-9641
-- info@apoliq.com
+**Trụ sở chính — Cần Thơ**  
+K2-15 Võ Nguyên Giáp, P. Hưng Phú, TP. Cần Thơ  
+Hotline / ĐT: 0901 339 669  
+Email: info@apoliq.com
+
+**Chi nhánh Hà Nội**  
+Km 11, Quốc lộ 21, Thôn 2, Xã Yên Xuân, Thành phố Hà Nội, Việt Nam  
+Hotline / ĐT: 0899 551 228
+
+**Chi nhánh Hồ Chí Minh**  
+Lô II-1, Đường số 1, Nhóm CN2, Khu công nghiệp Tân Bình, Phường Tây Thạnh, Thành phố Hồ Chí Minh, Việt Nam  
+Hotline / ĐT: 0907.61.69.69
