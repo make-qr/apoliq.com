@@ -42,8 +42,12 @@
         <button type="button" aria-expanded="false">Giới thiệu ▾</button>
         <ul class="dropdown">
           <li><a href="${root}gioi-thieu/index.html">Giới thiệu chung</a></li>
+          <li><a href="${root}gioi-thieu/chinh-sach-chat-luong.html">Chính sách chất lượng</a></li>
+          <li><a href="${root}gioi-thieu/co-cau-to-chuc.html">Cơ cấu tổ chức</a></li>
           <li><a href="${root}gioi-thieu/chuc-nang.html">Chức năng – Nhiệm vụ</a></li>
+          <li><a href="${root}gioi-thieu/thanh-tich.html">Thành tích – Định hướng</a></li>
           <li><a href="${root}nang-luc/index.html">Năng lực</a></li>
+          <li><a href="${root}nang-luc/trang-thiet-bi.html">Trang thiết bị</a></li>
         </ul>
       </li>
       <li><a href="${root}nang-luc/index.html">Năng lực</a></li>
@@ -51,6 +55,7 @@
         <button type="button" aria-expanded="false">Dịch vụ ▾</button>
         <ul class="dropdown">
           <li><a href="${root}dich-vu/kiem-nghiem/index.html"><strong>Kiểm nghiệm</strong></a></li>
+          <li><a href="${root}dich-vu/kiem-nghiem/huong-dan-gui-mau.html">· Hướng dẫn gửi mẫu</a></li>
           <li><a href="${root}dich-vu/kiem-nghiem/thuc-pham.html">· Thực phẩm</a></li>
           <li><a href="${root}dich-vu/kiem-nghiem/banh-keo.html">· Bánh kẹo</a></li>
           <li><a href="${root}dich-vu/kiem-nghiem/nuoc-uong.html">· Nước uống</a></li>

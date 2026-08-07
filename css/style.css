@@ -754,3 +754,19 @@ form.quote-form select {
     display: none;
   }
 }
+
+/* Compat tokens for ported service-page.css */
+:root {
+  --btn-height: 48px;
+  --primary-color: var(--cyan-deep);
+  --primary-dark: var(--cyan-deep);
+  --accent-color: var(--green);
+  --white: #ffffff;
+  --light-gray: var(--bg);
+  --text-color: var(--text);
+}
+.service-page .container { width: min(100% - 2rem, var(--max)); margin-inline: auto; }
+.faq-item .faq-answer { display: none; }
+.faq-item.active .faq-answer { display: block; }
+.faq-question { cursor: pointer; display:flex; justify-content:space-between; gap:1rem; align-items:center; }
+.sticky-cta-bar, .chat-widget-container { display:none !important; }
