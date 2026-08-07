@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "vietgap-organic-halal-overview",
+    "title": "VietGAP, Organic, Halal: chứng nhận nào phù hợp doanh nghiệp của bạn?",
+    "description": "So sánh VietGAP, Organic và Halal: đối tượng, mục tiêu thị trường và lộ trình tư vấn tại Apoliq.",
+    "lead": "VietGAP, Organic và Halal là các chứng nhận phổ biến trong nông sản–thực phẩm nhưng khác đối tượng và thị trường. Doanh nghiệp nên chọn theo chiến lược bán hàng thay vì làm đồng thời mọi chứng nhận.",
+    "tag": "Chứng nhận",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/vietgap-organic-halal-overview-hero.jpg",
+    "inline": "../images/tin-tuc/vietgap-organic-halal-overview-inline.jpg"
+  },
+  {
+    "slug": "vi-sao-kiem-nghiem-bao-bi-tiep-xuc-thuc-pham",
+    "title": "Vì sao phải kiểm nghiệm bao bì tiếp xúc thực phẩm trước khi công bố?",
+    "description": "Bao bì tiếp xúc thực phẩm có thể thôi nhiễm hóa chất vào thực phẩm. Giải thích lý do kiểm nghiệm, QCVN liên quan và khi nào cần công bố — Apoliq (ISO/IEC 17025).",
+    "lead": "Bao bì và dụng cụ tiếp xúc thực phẩm (Food Contact Materials) có thể thôi nhiễm chất hóa học vào thực phẩm khi gặp nhiệt, dầu mỡ hoặc bảo quản kéo dài. Kiểm nghiệm giúp doanh nghiệp đáp ứng quy định Bộ Y tế và giảm rủi ro an toàn thực phẩm trước khi công bố sản phẩm.",
+    "tag": "Bao bì FCM",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/vi-sao-kiem-nghiem-bao-bi-tiep-xuc-thuc-pham-hero.jpg",
+    "inline": "../images/tin-tuc/vi-sao-kiem-nghiem-bao-bi-tiep-xuc-thuc-pham-inline.jpg"
+  },
+  {
+    "slug": "vi-nhua-trong-thuc-pham",
+    "title": "Vi nhựa trong thực phẩm và nước uống: doanh nghiệp cần quan tâm gì?",
+    "description": "Vi nhựa trong thực phẩm và nước: xu hướng nghiên cứu, rủi ro truyền thông và bước doanh nghiệp nên chủ động — Apoliq.",
+    "lead": "Vi nhựa (microplastics) đang được nghiên cứu và thảo luận rộng rãi trong thực phẩm, nước uống và môi trường. Dù khung pháp lý còn đang hoàn thiện ở nhiều nơi, doanh nghiệp nên chủ động giám sát rủi ro chuỗi cung ứng.",
+    "tag": "Trend",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/vi-nhua-trong-thuc-pham-hero.jpg",
+    "inline": "../images/tin-tuc/vi-nhua-trong-thuc-pham-inline.jpg"
+  },
+  {
+    "slug": "valas-217-iso-17025-la-gi",
+    "title": "ISO/IEC 17025 là gì? Phòng thử nghiệm ISO/IEC 17025 của Apoliq",
+    "description": "ISO/IEC 17025 là mã số phòng thử nghiệm Apoliq được tổ chức công nhận công nhận theo ISO/IEC 17025:2017. Giải thích ý nghĩa báo cáo và cách xác thực năng lực.",
+    "lead": "ISO/IEC 17025 là mã số phòng thử nghiệm Apoliq được Tổ chức công nhận tổ chức công nhận công nhận theo tiêu chuẩn ISO/IEC 17025:2017 cho lĩnh vực thử nghiệm sinh học và hóa học.",
+    "tag": "Năng lực lab",
+    "date": "19/07/2026",
+    "hero": "../images/tin-tuc/valas-217-iso-17025-la-gi-hero.jpg",
+    "inline": "../images/tin-tuc/valas-217-iso-17025-la-gi-inline.jpg"
+  },
+  {
+    "slug": "tu-cong-bo-san-pham-va-phieu-kiem-nghiem",
+    "title": "Tự công bố sản phẩm thực phẩm: khi nào cần phiếu kiểm nghiệm?",
+    "description": "Tự công bố sản phẩm thực phẩm cần phiếu kiểm nghiệm khi nào? Vai trò lab ISO 17025, thời gian trả kết quả và nhận mẫu tại Apoliq.",
+    "lead": "Doanh nghiệp tự công bố sản phẩm thực phẩm cần chứng minh sản phẩm đạt chỉ tiêu an toàn và chất lượng theo quy định. Phiếu kết quả từ phòng thử nghiệm đủ năng lực là một phần quan trọng của hồ sơ.",
+    "tag": "Công bố sản phẩm",
+    "date": "18/07/2026",
+    "hero": "../images/tin-tuc/tu-cong-bo-san-pham-va-phieu-kiem-nghiem-hero.jpg",
+    "inline": "../images/tin-tuc/tu-cong-bo-san-pham-va-phieu-kiem-nghiem-inline.jpg"
+  },
+  {
+    "slug": "smeta-sedex-nha-may-thuc-pham",
+    "title": "SMETA / Sedex: nhà máy thực phẩm xuất khẩu cần chuẩn bị gì?",
+    "description": "SMETA/Sedex cho nhà máy thực phẩm: đánh giá trách nhiệm xã hội, gap analysis và lộ trình tại Apoliq.",
+    "lead": "SMETA là phương pháp đánh giá trách nhiệm xã hội do Sedex phát triển, phổ biến với nhà máy cung ứng FMCG và thực phẩm xuất khẩu. Chuẩn bị sớm giúp giảm điểm không phù hợp khi audit.",
+    "tag": "Assurance",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/smeta-sedex-nha-may-thuc-pham-hero.jpg",
+    "inline": "../images/tin-tuc/smeta-sedex-nha-may-thuc-pham-inline.jpg"
+  },
+  {
+    "slug": "quan-trac-nuoc-thai-dinh-ky",
+    "title": "Quan trắc nước thải định kỳ: chỉ tiêu &amp; chu kỳ doanh nghiệp cần biết",
+    "description": "Quan trắc nước thải định kỳ: chỉ tiêu thường gặp, chu kỳ báo cáo và chuẩn bị mẫu — Apoliq quan trắc môi trường.",
+    "lead": "Quan trắc nước thải định kỳ là nghĩa vụ phổ biến với cơ sở có hệ thống xử lý hoặc nguồn thải nước. Doanh nghiệp cần nắm chỉ tiêu, điểm lấy mẫu và chu kỳ để lập kế hoạch với đơn vị quan trắc.",
+    "tag": "Môi trường",
+    "date": "21/07/2026",
+    "hero": "../images/tin-tuc/quan-trac-nuoc-thai-dinh-ky-hero.jpg",
+    "inline": "../images/tin-tuc/quan-trac-nuoc-thai-dinh-ky-inline.jpg"
+  },
+  {
+    "slug": "quan-trac-khi-thai-nha-may",
+    "title": "Quan trắc khí thải nhà máy: khi nào bắt buộc và chuẩn bị gì?",
+    "description": "Quan trắc khí thải nhà máy: khi nào cần thực hiện, chuẩn bị hồ sơ và đơn vị quan trắc — Apoliq tư vấn môi trường.",
+    "lead": "Quan trắc khí thải giúp doanh nghiệp theo dõi thông số phát thải so với quy chuẩn và điều kiện trong giấy phép môi trường. Việc thực hiện đúng chu kỳ giảm rủi ro vi phạm và hỗ trợ báo cáo định kỳ.",
+    "tag": "Môi trường",
+    "date": "22/07/2026",
+    "hero": "../images/tin-tuc/quan-trac-khi-thai-nha-may-hero.jpg",
+    "inline": "../images/tin-tuc/quan-trac-khi-thai-nha-may-inline.jpg"
+  },
+  {
+    "slug": "qcvn-vs-fda-gb4806-bao-bi",
+    "title": "So sánh yêu cầu bao bì VN (QCVN) với FDA và GB 4806",
+    "description": "Bao bì tiếp xúc thực phẩm: QCVN Việt Nam, FDA (Mỹ) và GB 4806 (Trung Quốc) khác nhau thế nào — Apoliq.",
+    "lead": "Bao bì tiếp xúc thực phẩm chịu các khung quy định khác nhau tùy thị trường: QCVN tại Việt Nam, FDA tại Mỹ, GB 4806 tại Trung Quốc. Doanh nghiệp đa thị trường cần lập kế hoạch tuân thủ riêng cho từng đích.",
+    "tag": "Bao bì FCM",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/qcvn-vs-fda-gb4806-bao-bi-hero.jpg",
+    "inline": "../images/tin-tuc/qcvn-vs-fda-gb4806-bao-bi-inline.jpg"
+  },
+  {
+    "slug": "phan-tich-dinh-duong-ghi-nhan",
+    "title": "Phân tích dinh dưỡng để ghi nhãn: protein, lipid, carbohydrate, năng lượng",
+    "description": "Phân tích dinh dưỡng (protein, lipid, carb, năng lượng) phục vụ ghi nhãn bao bì tại lab ISO 17025 ISO/IEC 17025 — Apoliq.",
+    "lead": "Ghi nhãn dinh dưỡng đòi hỏi số liệu protein, lipid, carbohydrate, năng lượng (và chỉ tiêu khác khi cần) từ phân tích phòng thử nghiệm. Apoliq hỗ trợ doanh nghiệp lấy số liệu tin cậy để hoàn thiện bao bì và hồ sơ.",
+    "tag": "Dinh dưỡng",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/phan-tich-dinh-duong-ghi-nhan-hero.jpg",
+    "inline": "../images/tin-tuc/phan-tich-dinh-duong-ghi-nhan-inline.jpg"
+  },
+  {
+    "slug": "pfas-trong-thuc-pham-bao-bi",
+    "title": "PFAS trong thực phẩm và bao bì: doanh nghiệp cần biết gì?",
+    "description": "PFAS (hóa chất bền vững) trong thực phẩm và bao bì: xu hướng kiểm soát toàn cầu và cách doanh nghiệp chủ động — Apoliq.",
+    "lead": "PFAS là nhóm hợp chất bền vững ngoài môi trường, ngày càng được các thị trường và chuỗi bán lẻ quan tâm trong thực phẩm và bao bì. Doanh nghiệp nên nắm xu hướng để chủ động khi khách hàng yêu cầu bằng chứng kiểm soát.",
+    "tag": "Trend",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/pfas-trong-thuc-pham-bao-bi-hero.jpg",
+    "inline": "../images/tin-tuc/pfas-trong-thuc-pham-bao-bi-inline.jpg"
+  },
+  {
+    "slug": "ocop-kiem-nghiem-va-cong-bo",
+    "title": "OCOP và kiểm nghiệm / công bố sản phẩm: hồ sơ cần những gì?",
+    "description": "OCOP và kiểm nghiệm công bố sản phẩm: phiếu kiểm nghiệm, TCCS và vai trò lab ISO 17025 cho sản phẩm OCOP — Apoliq.",
+    "lead": "Chương trình OCOP gắn với sản phẩm địa phương có hồ sơ chất lượng. Nhiều sản phẩm cần phiếu kiểm nghiệm từ phòng lab đủ năng lực để hoàn thiện công bố hoặc minh chứng chất lượng khi nộp hồ sơ / đối soát.",
+    "tag": "OCOP",
+    "date": "23/07/2026",
+    "hero": "../images/tin-tuc/ocop-kiem-nghiem-va-cong-bo-hero.jpg",
+    "inline": "../images/tin-tuc/ocop-kiem-nghiem-va-cong-bo-inline.jpg"
+  },
+  {
+    "slug": "nhan-mau-ha-noi-can-tho-hcm",
+    "title": "Nhận mẫu kiểm nghiệm Hà Nội – Cần Thơ – Hồ Chí Minh: quy trình nhanh",
+    "description": "Apoliq nhận mẫu kiểm nghiệm tại Hà Nội, Cần Thơ, HCM. Hotline 0901 339 669 · HCM 0907.61.69.69 — lab ISO 17025 ISO/IEC 17025.",
+    "lead": "Apoliq nhận mẫu kiểm nghiệm tại Hà Nội, Cần Thơ và Hồ Chí Minh. Doanh nghiệp có thể gọi hotline để được hướng dẫn địa điểm, đóng gói và tiến độ trả kết quả.",
+    "tag": "Nhận mẫu",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/nhan-mau-ha-noi-can-tho-hcm-hero.jpg",
+    "inline": "../images/tin-tuc/nhan-mau-ha-noi-can-tho-hcm-inline.jpg"
+  },
+  {
+    "slug": "kim-loai-nang-trong-thuc-pham",
+    "title": "Kim loại nặng trong thực phẩm (Pb, Cd, As, Hg): khi nào bắt buộc kiểm?",
+    "description": "Kim loại nặng Pb, Cd, As, Hg trong thực phẩm: ngưỡng quan tâm, khi nào cần kiểm nghiệm và vai trò lab ISO 17025 — Apoliq.",
+    "lead": "Kim loại nặng (thường gồm chì Pb, cadimi Cd, asen As, thủy ngân Hg) là chỉ tiêu an toàn quan trọng. Doanh nghiệp cần kiểm khi quy chuẩn bắt buộc, khi nguyên liệu rủi ro cao, hoặc khi đối tác/chuỗi phân phối yêu cầu.",
+    "tag": "Hóa lý",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/kim-loai-nang-trong-thuc-pham-hero.jpg",
+    "inline": "../images/tin-tuc/kim-loai-nang-trong-thuc-pham-inline.jpg"
+  },
+  {
+    "slug": "kiem-nghiem-vi-sinh-thuc-pham",
+    "title": "Vi sinh thực phẩm: Coliform, E. coli, Salmonella — đọc kết quả thế nào?",
+    "description": "Giải thích chỉ tiêu vi sinh thực phẩm thường gặp (Coliform, E. coli, Salmonella), cách đọc kết quả và khi nào cần kiểm — Apoliq ISO/IEC 17025.",
+    "lead": "Kiểm nghiệm vi sinh thực phẩm giúp đánh giá mức độ nhiễm khuẩn và rủi ro an toàn. Các chỉ tiêu như tổng số vi khuẩn hiếu khí, Coliform, E. coli, Salmonella thường xuất hiện trong TCCS và yêu cầu đối tác phân phối.",
+    "tag": "Vi sinh",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/kiem-nghiem-vi-sinh-thuc-pham-hero.jpg",
+    "inline": "../images/tin-tuc/kiem-nghiem-vi-sinh-thuc-pham-inline.jpg"
+  },
+  {
+    "slug": "kiem-nghiem-tpcn-truoc-cong-bo",
+    "title": "Kiểm nghiệm TPCN / thực phẩm chức năng trước khi công bố",
+    "description": "Kiểm nghiệm thực phẩm chức năng (TPCN) trước công bố: chỉ tiêu hóa lý, vi sinh và lab ISO 17025 — Apoliq ISO/IEC 17025.",
+    "lead": "Thực phẩm chức năng (TPCN) và sản phẩm liên quan cần kiểm nghiệm phù hợp để kiểm soát chất lượng và hỗ trợ hồ sơ công bố. Phòng lab ISO/IEC 17025 giúp doanh nghiệp có báo cáo có giá trị pháp lý rõ ràng.",
+    "tag": "TPCN",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/kiem-nghiem-tpcn-truoc-cong-bo-hero.jpg",
+    "inline": "../images/tin-tuc/kiem-nghiem-tpcn-truoc-cong-bo-inline.jpg"
+  },
+  {
+    "slug": "kiem-nghiem-thuy-san-xuat-khau",
+    "title": "Kiểm nghiệm thủy sản xuất khẩu: chỉ tiêu doanh nghiệp hay gặp",
+    "description": "Kiểm nghiệm thủy sản xuất khẩu: dư lượng kháng sinh, kim loại nặng, vi sinh và chuẩn bị mẫu tại lab ISO 17025 — Apoliq.",
+    "lead": "Doanh nghiệp chế biến và xuất khẩu thủy sản thường cần kết quả kiểm nghiệm dư lượng kháng sinh/thuốc thú y, kim loại nặng và vi sinh theo yêu cầu thị trường đích hoặc hợp đồng mua bán. Lab ISO 17025 giúp cung cấp phiếu kết quả có tính pháp lý và truy xuất rõ.",
+    "tag": "Thủy sản",
+    "date": "23/07/2026",
+    "hero": "../images/tin-tuc/kiem-nghiem-thuy-san-xuat-khau-hero.jpg",
+    "inline": "../images/tin-tuc/kiem-nghiem-thuy-san-xuat-khau-inline.jpg"
+  },
+  {
+    "slug": "kiem-nghiem-thuc-pham-ha-noi",
+    "title": "Kiểm nghiệm thực phẩm tại Hà Nội: nhận mẫu, thời gian &amp; báo giá",
+    "description": "Kiểm nghiệm thực phẩm Hà Nội: điểm nhận mẫu, thời gian trả kết quả và báo giá lab ISO 17025 ISO/IEC 17025 — Apoliq.",
+    "lead": "Nhu cầu tìm “kiểm nghiệm thực phẩm Hà Nội” thường gắn với công bố, QC nhà máy và đối soát siêu thị. Apoliq nhận mẫu tại Hà Nội (cùng Cần Thơ, Hồ Chí Minh), phòng thử nghiệm công nhận ISO/IEC 17025.",
+    "tag": "Local SEO",
+    "date": "22/07/2026",
+    "hero": "../images/tin-tuc/kiem-nghiem-thuc-pham-ha-noi-hero.jpg",
+    "inline": "../images/tin-tuc/kiem-nghiem-thuc-pham-ha-noi-inline.jpg"
+  },
+  {
+    "slug": "kiem-nghiem-nuoc-uong-qcvn",
+    "title": "Kiểm nghiệm nước uống đóng chai theo QCVN: chỉ tiêu và thời gian trả kết quả",
+    "description": "Kiểm nghiệm nước sạch, nước tinh khiết, nước uống đóng chai theo QCVN tại lab ISO 17025 ISO/IEC 17025 — Apoliq.",
+    "lead": "Kiểm nghiệm nước sạch và nước uống đóng chai theo quy chuẩn kỹ thuật quốc gia giúp doanh nghiệp công bố sản phẩm và kiểm soát chất lượng lô. Apoliq thực hiện tại phòng lab được công nhận ISO/IEC 17025.",
+    "tag": "Nước",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/kiem-nghiem-nuoc-uong-qcvn-hero.jpg",
+    "inline": "../images/tin-tuc/kiem-nghiem-nuoc-uong-qcvn-inline.jpg"
+  },
+  {
+    "slug": "kiem-nghiem-my-pham-thong-tu-06",
+    "title": "Kiểm nghiệm mỹ phẩm theo Thông tư 06: chỉ tiêu doanh nghiệp hay hỏi",
+    "description": "Kiểm nghiệm mỹ phẩm theo Thông tư 06/2011/TT-BYT: vi sinh, hóa lý, kim loại nặng tại lab ISO 17025 — Apoliq.",
+    "lead": "Kiểm nghiệm mỹ phẩm theo Thông tư 06/2011/TT-BYT và tiêu chuẩn liên quan giúp doanh nghiệp hoàn thiện hồ sơ công bố và kiểm soát chất lượng lô sản xuất.",
+    "tag": "Mỹ phẩm",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/kiem-nghiem-my-pham-thong-tu-06-hero.jpg",
+    "inline": "../images/tin-tuc/kiem-nghiem-my-pham-thong-tu-06-inline.jpg"
+  },
+  {
+    "slug": "kiem-nghiem-duoc-pham-va-gmp",
+    "title": "Kiểm nghiệm dược phẩm &amp; hỗ trợ hồ sơ GMP: doanh nghiệp cần gì?",
+    "description": "Kiểm nghiệm dược phẩm và hỗ trợ hồ sơ GMP: chỉ tiêu thường gặp, gửi mẫu lab ISO 17025 — Apoliq.",
+    "lead": "Kiểm nghiệm dược phẩm phục vụ kiểm soát chất lượng nguyên liệu/thành phẩm và hỗ trợ yêu cầu hệ thống GMP. Doanh nghiệp nên chọn lab có năng lực phù hợp chỉ tiêu và quy trình nhận mẫu rõ ràng.",
+    "tag": "Dược phẩm",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/kiem-nghiem-duoc-pham-va-gmp-hero.jpg",
+    "inline": "../images/tin-tuc/kiem-nghiem-duoc-pham-va-gmp-inline.jpg"
+  },
+  {
+    "slug": "kiem-nghiem-banh-keo-mat-ong-dau-an",
+    "title": "Kiểm nghiệm bánh kẹo, mật ong và dầu ăn: chỉ tiêu doanh nghiệp cần biết",
+    "description": "Tổng hợp chỉ tiêu kiểm nghiệm bánh kẹo, mật ong, dầu ăn phục vụ công bố và QC — Apoliq lab ISO 17025 ISO/IEC 17025.",
+    "lead": "Bánh kẹo, mật ong và dầu ăn là các nhóm thực phẩm phổ biến cần kiểm nghiệm trước công bố hoặc đưa vào phân phối. Mỗi nhóm có bộ chỉ tiêu đặc thù theo TCCS/quy chuẩn.",
+    "tag": "Thực phẩm",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/kiem-nghiem-banh-keo-mat-ong-dau-an-hero.jpg",
+    "inline": "../images/tin-tuc/kiem-nghiem-banh-keo-mat-ong-dau-an-inline.jpg"
+  },
+  {
+    "slug": "haccp-va-iso-22000-khac-nhau",
+    "title": "HACCP và ISO 22000 khác nhau thế nào? Doanh nghiệp thực phẩm chọn gì?",
+    "description": "So sánh HACCP và ISO 22000: phạm vi, đối tượng và lộ trình tư vấn chứng nhận tại Apoliq.",
+    "lead": "HACCP và ISO 22000 đều hướng tới an toàn thực phẩm nhưng khác phạm vi. Hiểu đúng giúp doanh nghiệp chọn lộ trình chứng nhận phù hợp mục tiêu kinh doanh và yêu cầu khách hàng.",
+    "tag": "Chứng nhận",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/haccp-va-iso-22000-khac-nhau-hero.jpg",
+    "inline": "../images/tin-tuc/haccp-va-iso-22000-khac-nhau-inline.jpg"
+  },
+  {
+    "slug": "gui-mau-kiem-nghiem-can-chuan-bi-gi",
+    "title": "Gửi mẫu kiểm nghiệm: checklist doanh nghiệp cần chuẩn bị",
+    "description": "Checklist gửi mẫu kiểm nghiệm: thông tin sản phẩm, số lượng mẫu, bảo quản và mục đích báo cáo — Apoliq ISO/IEC 17025.",
+    "lead": "Gửi mẫu đúng cách giúp phòng lab tư vấn chỉ tiêu chính xác và trả kết quả đúng hạn. Dưới đây là checklist thực tế doanh nghiệp nên chuẩn bị trước khi liên hệ Apoliq.",
+    "tag": "Hướng dẫn",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/gui-mau-kiem-nghiem-can-chuan-bi-gi-hero.jpg",
+    "inline": "../images/tin-tuc/gui-mau-kiem-nghiem-can-chuan-bi-gi-inline.jpg"
+  },
+  {
+    "slug": "ghi-nhan-dinh-duong-thong-tu-29-2023",
+    "title": "Ghi nhãn dinh dưỡng theo Thông tư 29/2023/TT-BYT: doanh nghiệp cần chuẩn bị gì?",
+    "description": "Thông tư 29/2023 về ghi nhãn dinh dưỡng: vì sao cần phân tích dinh dưỡng tại lab ISO 17025, chỉ tiêu thường gặp và lộ trình tuân thủ — Apoliq.",
+    "lead": "Thông tư 29/2023/TT-BYT đặt yêu cầu rõ hơn về ghi nhãn dinh dưỡng thực phẩm. Doanh nghiệp cần số liệu phân tích từ phòng thử nghiệm đủ năng lực để ghi nhãn đúng và đối soát giá trị trên bao bì.",
+    "tag": "Dinh dưỡng",
+    "date": "19/07/2026",
+    "hero": "../images/tin-tuc/ghi-nhan-dinh-duong-thong-tu-29-2023-hero.jpg",
+    "inline": "../images/tin-tuc/ghi-nhan-dinh-duong-thong-tu-29-2023-inline.jpg"
+  },
+  {
+    "slug": "eu-10-2011-bao-bi-xuat-khau",
+    "title": "EU 10/2011 và xuất khẩu bao bì sang châu Âu: doanh nghiệp cần chuẩn bị gì?",
+    "description": "Quy định EU về thôi nhiễm nhựa tiếp xúc thực phẩm khi xuất khẩu bao bì sang châu Âu — định hướng chuẩn bị hồ sơ với Apoliq.",
+    "lead": "Quy định (EU) No 10/2011 là khung quan trọng với vật liệu nhựa tiếp xúc thực phẩm khi đưa vào thị trường châu Âu. Doanh nghiệp Việt Nam sản xuất bao bì xuất khẩu cần chuẩn bị hồ sơ và dữ liệu thử nghiệm phù hợp.",
+    "tag": "Xuất khẩu",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/eu-10-2011-bao-bi-xuat-khau-hero.jpg",
+    "inline": "../images/tin-tuc/eu-10-2011-bao-bi-xuat-khau-inline.jpg"
+  },
+  {
+    "slug": "du-luong-thuoc-bvtv-rau-cu",
+    "title": "Dư lượng thuốc bảo vệ thực vật trên rau củ quả: doanh nghiệp cần biết gì?",
+    "description": "Dư lượng thuốc BVTV trên rau củ quả: vì sao kiểm, chỉ tiêu MRL và quy trình nhận mẫu tại Apoliq (ISO/IEC 17025).",
+    "lead": "Dư lượng thuốc bảo vệ thực vật (BVTV) trên rau củ quả là chỉ tiêu an toàn được kiểm soát chặt. Doanh nghiệp thu mua, sơ chế, xuất khẩu hoặc công bố sản phẩm chế biến từ nông sản thường cần kết quả phân tích từ phòng lab đủ năng lực.",
+    "tag": "Nông sản",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/du-luong-thuoc-bvtv-rau-cu-hero.jpg",
+    "inline": "../images/tin-tuc/du-luong-thuoc-bvtv-rau-cu-inline.jpg"
+  },
+  {
+    "slug": "du-luong-khang-sinh-thuy-san",
+    "title": "Dư lượng kháng sinh / thuốc thú y trong thịt, thủy sản và sữa",
+    "description": "Dư lượng kháng sinh và thuốc thú y trong thịt, thủy sản, sữa: vì sao kiểm soát và cách gửi mẫu tại Apoliq ISO/IEC 17025.",
+    "lead": "Dư lượng kháng sinh và thuốc thú y trong thịt, thủy sản, sữa là chỉ tiêu được giám sát chặt. Doanh nghiệp chế biến, phân phối hoặc xuất khẩu cần kết quả phân tích tin cậy để hoàn thiện hồ sơ và giảm rủi ro lô hàng.",
+    "tag": "An toàn TP",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/du-luong-khang-sinh-thuy-san-hero.jpg",
+    "inline": "../images/tin-tuc/du-luong-khang-sinh-thuy-san-inline.jpg"
+  },
+  {
+    "slug": "doc-to-vi-nam-aflatoxin",
+    "title": "Độc tố vi nấm (aflatoxin) trong ngũ cốc, hạt và thức ăn chăn nuôi",
+    "description": "Aflatoxin và độc tố vi nấm trong ngũ cốc, hạt, thức ăn chăn nuôi: rủi ro, khi nào kiểm và lab ISO 17025 — Apoliq.",
+    "lead": "Độc tố vi nấm (mycotoxin), đặc biệt aflatoxin, là mối nguy phổ biến trên ngũ cốc, hạt, sản phẩm khô và thức ăn chăn nuôi. Kiểm nghiệm giúp doanh nghiệp kiểm soát đầu vào và đáp ứng quy chuẩn an toàn.",
+    "tag": "Mycotoxin",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/doc-to-vi-nam-aflatoxin-hero.jpg",
+    "inline": "../images/tin-tuc/doc-to-vi-nam-aflatoxin-inline.jpg"
+  },
+  {
+    "slug": "dang-ky-moi-truong-vs-quan-trac",
+    "title": "Đăng ký môi trường và quan trắc định kỳ khác nhau thế nào?",
+    "description": "Phân biệt đăng ký/hồ sơ môi trường và quan trắc định kỳ: khi nào cần từng loại — Apoliq tư vấn + lab ISO/IEC 17025.",
+    "lead": "Nhiều doanh nghiệp nhầm lẫn giữa quan trắc môi trường và tư vấn hồ sơ (đăng ký môi trường, ĐTM…). Hiểu đúng giúp chọn dịch vụ phù hợp, tránh chậm tiến độ pháp lý.",
+    "tag": "Môi trường",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/dang-ky-moi-truong-vs-quan-trac-hero.jpg",
+    "inline": "../images/tin-tuc/dang-ky-moi-truong-vs-quan-trac-inline.jpg"
+  },
+  {
+    "slug": "cronobacter-sua-bot",
+    "title": "Cronobacter sakazakii và rủi ro với sữa bột / sản phẩm dinh dưỡng",
+    "description": "Cronobacter sakazakii: vì sao quan trọng với sữa bột và dinh dưỡng trẻ nhỏ; kiểm soát vi sinh tại lab ISO 17025 — Apoliq.",
+    "lead": "Cronobacter sakazakii là vi khuẩn được quan tâm đặc biệt với sữa bột và một số sản phẩm dinh dưỡng. Doanh nghiệp sản xuất/đóng gói cần kiểm soát môi trường và thành phẩm theo yêu cầu an toàn.",
+    "tag": "Vi sinh",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/cronobacter-sua-bot-hero.jpg",
+    "inline": "../images/tin-tuc/cronobacter-sua-bot-inline.jpg"
+  },
+  {
+    "slug": "cong-bo-hop-nhua-dung-thuc-pham",
+    "title": "Công bố chất lượng hộp nhựa đựng thực phẩm: hồ sơ và chỉ tiêu cần lưu ý",
+    "description": "Hướng dẫn công bố hộp nhựa đựng thực phẩm: vì sao cần kiểm nghiệm theo QCVN 12, chỉ tiêu thôi nhiễm và quy trình nhận báo giá tại Apoliq.",
+    "lead": "Hộp nhựa, khay, dụng cụ nhựa đựng thực phẩm cần đáp ứng quy chuẩn kỹ thuật quốc gia về vật liệu tiếp xúc thực phẩm. Kiểm nghiệm giúp doanh nghiệp hoàn thiện hồ sơ công bố và chứng minh an toàn khi sử dụng.",
+    "tag": "Bao bì FCM",
+    "date": "18/07/2026",
+    "hero": "../images/tin-tuc/cong-bo-hop-nhua-dung-thuc-pham-hero.jpg",
+    "inline": "../images/tin-tuc/cong-bo-hop-nhua-dung-thuc-pham-inline.jpg"
+  },
+  {
+    "slug": "chung-nhan-vietgap-quy-trinh",
+    "title": "Chứng nhận VietGAP: quy trình, hồ sơ và vai trò kiểm nghiệm",
+    "description": "Chứng nhận VietGAP: quy trình đăng ký, hồ sơ và vai trò kiểm nghiệm nông sản — Apoliq tư vấn VietGAP.",
+    "lead": "Chứng nhận VietGAP là lựa chọn phổ biến với hợp tác xã và doanh nghiệp nông nghiệp muốn minh chứng thực hành sản xuất tốt. Quy trình gồm xây dựng hệ thống, kiểm soát hồ sơ và thường gắn với kiểm nghiệm chỉ tiêu an toàn khi cần.",
+    "tag": "Chứng nhận",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/chung-nhan-vietgap-quy-trinh-hero.jpg",
+    "inline": "../images/tin-tuc/chung-nhan-vietgap-quy-trinh-inline.jpg"
+  },
+  {
+    "slug": "chon-phong-lab-iso-17025-nlct",
+    "title": "Cách chọn phòng lab ISO 17025 / đọc NLCT trước khi gửi mẫu",
+    "description": "Cách chọn phòng lab kiểm nghiệm uy tín theo ISO/IEC 17025, đọc phạm vi NLCT và phạm vi công nhận trước khi gửi mẫu — Apoliq ISO/IEC 17025.",
+    "lead": "Trước khi gửi mẫu kiểm nghiệm, doanh nghiệp nên xác minh phòng lab có công nhận ISO/IEC 17025 và phạm vi năng lực (NLCT) khớp chỉ tiêu cần đo. Việc này giảm rủi ro phiếu kết quả không được đối tác hoặc cơ quan chấp nhận.",
+    "tag": "Năng lực lab",
+    "date": "24/07/2026",
+    "hero": "../images/tin-tuc/chon-phong-lab-iso-17025-nlct-hero.jpg",
+    "inline": "../images/tin-tuc/chon-phong-lab-iso-17025-nlct-inline.jpg"
+  },
+  {
+    "slug": "chi-tieu-kiem-nghiem-banh-trung-thu",
+    "title": "Chỉ tiêu kiểm nghiệm bánh trung thu mùa cao điểm: doanh nghiệp cần chuẩn bị gì?",
+    "description": "Gợi ý chỉ tiêu vi sinh, hóa lý, phụ gia khi kiểm nghiệm bánh trung thu; thời gian trả kết quả và nhận mẫu HN·CT·HCM — Apoliq ISO/IEC 17025.",
+    "lead": "Bánh trung thu và bánh các loại thường cần kiểm nghiệm vi sinh, hóa lý, phụ gia theo TCCS/quy chuẩn trước khi công bố hoặc đưa vào chuỗi phân phối. Mùa cao điểm, doanh nghiệp nên chốt gói chỉ tiêu sớm để giữ tiến độ sản xuất.",
+    "tag": "Bánh trung thu",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/chi-tieu-kiem-nghiem-banh-trung-thu-hero.jpg",
+    "inline": "../images/tin-tuc/chi-tieu-kiem-nghiem-banh-trung-thu-inline.jpg"
+  },
+  {
+    "slug": "checklist-ho-so-dtm",
+    "title": "Checklist hồ sơ ĐTM / đánh giá tác động môi trường cho dự án mới",
+    "description": "Checklist hồ sơ ĐTM (đánh giá tác động môi trường): khi nào cần, tài liệu chuẩn bị và tư vấn — Apoliq.",
+    "lead": "Báo cáo đánh giá tác động môi trường (ĐTM) hoặc hồ sơ môi trường tương đương là bước pháp lý quan trọng với nhiều dự án đầu tư. Chuẩn bị đủ tài liệu kỹ thuật giúp rút ngắn thời gian tư vấn và thẩm định.",
+    "tag": "Môi trường",
+    "date": "21/07/2026",
+    "hero": "../images/tin-tuc/checklist-ho-so-dtm-hero.jpg",
+    "inline": "../images/tin-tuc/checklist-ho-so-dtm-inline.jpg"
+  },
+  {
+    "slug": "checklist-gui-mau-banh-trung-thu-2026",
+    "title": "Checklist gửi mẫu bánh trung thu 2026: thời hạn &amp; chỉ tiêu trước cao điểm",
+    "description": "Checklist gửi mẫu kiểm nghiệm bánh trung thu 2026: chỉ tiêu vi sinh – hóa lý, thời hạn trước cao điểm và lab ISO 17025 ISO/IEC 17025 — Apoliq.",
+    "lead": "Trước cao điểm trung thu 2026, doanh nghiệp sản xuất bánh nên hoàn tất kiểm nghiệm vi sinh và hóa lý theo TCCS/yêu cầu đối tác. Checklist dưới đây giúp lên lịch gửi mẫu, tránh tắc công bố hoặc giao hàng.",
+    "tag": "Bánh trung thu",
+    "date": "24/07/2026",
+    "hero": "../images/tin-tuc/checklist-gui-mau-banh-trung-thu-2026-hero.jpg",
+    "inline": "../images/tin-tuc/checklist-gui-mau-banh-trung-thu-2026-inline.jpg"
+  },
+  {
+    "slug": "challenge-test-va-han-su-dung",
+    "title": "Challenge test và đánh giá hạn sử dụng: khác kiểm nghiệm thường chỗ nào?",
+    "description": "Challenge test và đánh giá hạn sử dụng thực phẩm khác kiểm nghiệm chỉ tiêu thường ra sao — Apoliq tư vấn gói phù hợp.",
+    "lead": "Challenge test và đánh giá hạn sử dụng (shelf-life) giúp doanh nghiệp xác định điều kiện bảo quản và thời hạn sử dụng phù hợp. Đây là hướng tiếp cận khác với việc chỉ kiểm một lần các chỉ tiêu vi sinh/hóa lý thông thường.",
+    "tag": "Shelf-life",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/challenge-test-va-han-su-dung-hero.jpg",
+    "inline": "../images/tin-tuc/challenge-test-va-han-su-dung-inline.jpg"
+  },
+  {
+    "slug": "chai-nhua-dung-nuoc-uong-thoi-nhiem",
+    "title": "Kiểm nghiệm chai nhựa đựng nước uống: thôi nhiễm và an toàn bao bì",
+    "description": "Chai nhựa đựng nước uống thuộc vật liệu tiếp xúc thực phẩm: thôi nhiễm, QCVN và quy trình báo giá tại Apoliq.",
+    "lead": "Chai nhựa đựng nước uống là vật liệu tiếp xúc trực tiếp với thực phẩm/đồ uống. Kiểm nghiệm giúp đánh giá rủi ro thôi nhiễm và hỗ trợ hồ sơ công bố chất lượng bao bì.",
+    "tag": "Bao bì FCM",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/chai-nhua-dung-nuoc-uong-thoi-nhiem-hero.jpg",
+    "inline": "../images/tin-tuc/chai-nhua-dung-nuoc-uong-thoi-nhiem-inline.jpg"
+  },
+  {
+    "slug": "bao-gia-kiem-nghiem-gom-nhung-gi",
+    "title": "Báo giá kiểm nghiệm gồm những gì? Cách tối ưu chi phí chỉ tiêu",
+    "description": "Báo giá kiểm nghiệm gồm phí chỉ tiêu, xử lý mẫu và thời gian trả KQ. Cách chọn gói đúng để không kiểm thừa — Apoliq.",
+    "lead": "Báo giá kiểm nghiệm không phải một con số cố định: phụ thuộc chỉ tiêu, loại mẫu, phương pháp và thời gian trả kết quả. Hiểu cấu phần giúp doanh nghiệp tối ưu chi phí mà vẫn đủ hồ sơ.",
+    "tag": "Báo giá",
+    "date": "20/07/2026",
+    "hero": "../images/tin-tuc/bao-gia-kiem-nghiem-gom-nhung-gi-hero.jpg",
+    "inline": "../images/tin-tuc/bao-gia-kiem-nghiem-gom-nhung-gi-inline.jpg"
+  }
+]

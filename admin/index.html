@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Admin đăng bài | Apoliq</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="icon" href="../images/logo.png" type="image/png">
+</head>
+<body>
+  <header class="admin-top">
+    <div class="wrap">
+      <div>
+        <strong>Apoliq Admin</strong>
+        <span>Đăng bài tin tức lên website</span>
+      </div>
+      <div class="top-actions">
+        <a href="../tin-tuc/" target="_blank" rel="noopener">Xem tin tức</a>
+        <a href="../" target="_blank" rel="noopener">Trang chủ</a>
+        <button type="button" id="btnLogout" class="btn ghost">Xóa token</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card" id="authCard">
+      <h1>Đăng nhập GitHub</h1>
+      <p class="hint">Dùng <strong>Personal Access Token</strong> (classic) có quyền <code>repo</code> trên repo <code>make-qr/apoliq.com</code>. Token chỉ lưu trên trình duyệt máy anh, không đưa lên server.</p>
+      <label>GitHub Token
+        <input type="password" id="ghToken" placeholder="ghp_..." autocomplete="off">
+      </label>
+      <label>Repo
+        <input type="text" id="ghRepo" value="make-qr/apoliq.com" readonly>
+      </label>
+      <label>Nhánh
+        <input type="text" id="ghBranch" value="master">
+      </label>
+      <button type="button" id="btnSaveAuth" class="btn primary">Lưu &amp; tiếp tục</button>
+      <p class="hint"><a href="https://github.com/settings/tokens" target="_blank" rel="noopener">Tạo token tại GitHub → Settings → Developer settings → Personal access tokens</a></p>
+    </section>
+
+    <section class="card hidden" id="editorCard">
+      <div class="editor-head">
+        <h1>Đăng bài mới</h1>
+        <p class="status ok" id="authStatus"></p>
+      </div>
+
+      <form id="postForm">
+        <div class="grid-2">
+          <label>Tiêu đề *
+            <input type="text" id="title" required placeholder="Ví dụ: Kiểm nghiệm nước uống theo QCVN">
+          </label>
+          <label>Slug (URL)
+            <input type="text" id="slug" placeholder="tu-dong-tao-tu-tieu-de">
+          </label>
+        </div>
+
+        <div class="grid-3">
+          <label>Chuyên mục
+            <select id="tag">
+              <option>Hướng dẫn</option>
+              <option>Kiểm nghiệm</option>
+              <option>Chứng nhận</option>
+              <option>Môi trường</option>
+              <option>Tin hoạt động</option>
+              <option>Kỹ thuật – Chuyên môn</option>
+            </select>
+          </label>
+          <label>Ngày đăng
+            <input type="date" id="date">
+          </label>
+          <label>Tác giả
+            <input type="text" id="author" value="Apoliq">
+          </label>
+        </div>
+
+        <label>Mô tả ngắn (SEO) *
+          <input type="text" id="description" required maxlength="180" placeholder="1 câu tóm tắt hiện trên Google (~150 ký tự)">
+        </label>
+
+        <label>Lead / mở bài *
+          <textarea id="lead" rows="3" required placeholder="Đoạn mở đầu dưới ảnh hero"></textarea>
+        </label>
+
+        <label>Nội dung bài *
+          <textarea id="body" rows="14" required placeholder="Viết nội dung. Dùng quy tắc:
+## Tiêu đề mục
+### Tiêu đề nhỏ
+- mục danh sách
+1. danh sách số
+Đoạn văn thường: cách nhau bằng dòng trống."></textarea>
+        </label>
+
+        <div class="grid-2">
+          <label>Ảnh hero (bắt buộc) — ảnh thật JPG/PNG
+            <input type="file" id="heroFile" accept="image/jpeg,image/png,image/webp" required>
+            <img id="heroPreview" class="preview hidden" alt="Hero preview">
+          </label>
+          <label>Ảnh trong bài (tuỳ chọn)
+            <input type="file" id="inlineFile" accept="image/jpeg,image/png,image/webp">
+            <img id="inlinePreview" class="preview hidden" alt="Inline preview">
+          </label>
+        </div>
+
+        <div class="actions">
+          <button type="button" id="btnPreview" class="btn">Xem trước HTML</button>
+          <button type="submit" id="btnPublish" class="btn primary">Đăng bài lên website</button>
+        </div>
+        <p class="hint" id="publishHint">Sau khi đăng, GitHub Pages cần khoảng 20–60 giây để hiện bài mới.</p>
+        <pre id="log" class="log" hidden></pre>
+      </form>
+    </section>
+
+    <section class="card hidden" id="previewCard">
+      <h2>Xem trước nội dung đã chuyển HTML</h2>
+      <div id="previewBody" class="preview-body"></div>
+    </section>
+
+    <section class="card hidden" id="listCard">
+      <h2>Bài đã có trên site</h2>
+      <div id="postList" class="post-list"></div>
+    </section>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>
