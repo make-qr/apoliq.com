@@ -94,20 +94,7 @@ def make_unique_image(slug: str, role: str, width: int, height: int, title: str)
     img = img.filter(ImageFilter.GaussianBlur(radius=0.6))
     img = ImageEnhance.Contrast(img).enhance(1.08)
 
-    # caption bar
-    bar = Image.new("RGBA", (width, height), (0, 0, 0, 0))
-    bd = ImageDraw.Draw(bar)
-    bd.rectangle([0, height - 90, width, height], fill=(8, 40, 48, 150))
-    try:
-        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 28 if role == "hero" else 22)
-        font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 16)
-    except Exception:
-        font = ImageFont.load_default()
-        font_small = font
-    label = (title[:70] + "…") if len(title) > 70 else title
-    bd.text((24, height - 72), label, fill=(255, 255, 255, 235), font=font)
-    bd.text((24, height - 36), f"Apoliq · {slug}", fill=(180, 230, 235, 220), font=font_small)
-    img = Image.alpha_composite(img.convert("RGBA"), bar).convert("RGB")
+    # No baked-in title text — CSS frames crop cleanly without cutting captions.
 
     # tiny unique noise fingerprint (ensures byte uniqueness even if similar)
     px = img.load()

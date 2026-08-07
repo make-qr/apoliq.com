@@ -43,8 +43,52 @@ a:hover {
 
 img {
   max-width: 100%;
-  height: auto;
   display: block;
+}
+
+/* Chỉ ảnh “tự do” (không nằm trong khung cố định) mới height:auto */
+img:not([width]):not([height]):not(.news-thumb-img):not(.media-frame img) {
+  height: auto;
+}
+
+/* Khung ảnh chuẩn — tránh méo / overflow */
+.media-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background: var(--bg);
+  isolation: isolate;
+}
+
+.media-frame > img,
+.media-frame img {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.media-frame--16x9 {
+  aspect-ratio: 16 / 9;
+}
+
+.media-frame--16x10 {
+  aspect-ratio: 16 / 10;
+}
+
+.media-frame--1x1 {
+  aspect-ratio: 1 / 1;
+}
+
+.media-frame--thumb {
+  width: 72px;
+  height: 72px;
+  flex: none;
+  border-radius: 8px;
 }
 
 .container {
@@ -76,6 +120,8 @@ img {
 .brand img {
   height: 48px;
   width: auto;
+  max-height: 48px;
+  object-fit: contain;
   background: var(--white);
   border-radius: 8px;
   padding: 0.35rem 0.55rem;
@@ -300,11 +346,18 @@ img {
   padding: 1rem;
 }
 
-.feature-card img {
+.feature-card > img,
+.feature-card .media-frame {
+  display: block;
   width: 100%;
+  max-width: 100%;
   aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: auto !important;
+  border-radius: 8px;
+  overflow: hidden;
   background: linear-gradient(135deg, #d8f4f7, #d9f3e5);
+  object-fit: cover;
+  object-position: center;
 }
 
 .feature-card h3 {
@@ -330,6 +383,7 @@ img {
   display: grid;
   grid-template-columns: 72px 1fr;
   gap: 0.75rem;
+  align-items: center;
   padding: 0.7rem 0;
   border-bottom: 1px solid var(--line);
 }
@@ -350,6 +404,18 @@ img {
   font-weight: 800;
   text-align: center;
   padding: 0.3rem;
+}
+
+.news-list .news-thumb-img,
+.home-grid .news-thumb-img {
+  width: 72px !important;
+  height: 72px !important;
+  max-width: 72px !important;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  flex: none;
+  background: var(--bg);
 }
 
 .news-list a {

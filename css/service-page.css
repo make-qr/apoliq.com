@@ -123,11 +123,24 @@
     min-width: 0;
 }
 
-.intro-image img {
-    width: 100%;
-    height: auto;
+.intro-image {
+    position: relative;
+    overflow: hidden;
     border-radius: 8px;
-    box-shadow: var(--box-shadow);
+    aspect-ratio: 4 / 3;
+    background: #e8f4f6;
+}
+
+.intro-image img {
+    position: absolute;
+    inset: 0;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    box-shadow: none;
 }
 
 .intro-text h2 {
@@ -814,3 +827,16 @@ body.service-page .service-hero--cert {
         margin-right: auto;
     }
 } 
+
+/* Image frame safety on service pages */
+body.service-page img.news-thumb-img {
+  object-fit: cover;
+  object-position: center;
+}
+body.service-page .intro-image {
+  min-height: 220px;
+}
+body.service-page .clients-grid .client-logo {
+  display:flex; align-items:center; justify-content:center;
+  min-height: 64px; padding: .75rem; overflow:hidden;
+}
