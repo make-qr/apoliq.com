@@ -542,13 +542,24 @@ img:not([width]):not([height]):not(.news-thumb-img):not(.media-frame img) {
 }
 
 .service-tile .visual {
-  height: 140px;
+  height: 160px;
   background: linear-gradient(135deg, var(--cyan), var(--green));
   display: grid;
   place-items: center;
   color: var(--white);
   font-size: 2rem;
   font-weight: 800;
+  overflow: hidden;
+  padding: 0;
+}
+
+.service-tile .visual img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .service-tile .body {

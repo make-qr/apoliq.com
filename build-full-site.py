@@ -650,7 +650,11 @@ def write_portal_pages(news_items: list[tuple[str, str]]):
         ),
     ]:
         cards = "\n".join(
-            f'<a class="service-tile" href="{href}"><div class="visual">{title[:2]}</div><div class="body"><h3>{label}</h3><span class="btn btn-outline">Xem chi tiết</span></div></a>'
+            (
+                f'<a class="service-tile" href="{href}">'
+                f'<div class="visual"><img src="../../images/dich-vu/{Path(href).stem}.jpg?v=1" alt="{label}" width="480" height="320" loading="lazy"></div>'
+                f'<div class="body"><h3>{label}</h3><span class="btn btn-outline">Xem chi tiết</span></div></a>'
+            )
             for href, label in links
         )
         page(
