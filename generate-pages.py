@@ -729,7 +729,7 @@ def main():
     </div>
   </section>
 """,
-            canonical="https://make-qr.github.io/apoliq.com/",
+            canonical="https://apoliq.com/",
         ),
     )
 
@@ -767,7 +767,7 @@ python3 generate-pages.py
 ## GitHub Pages
 
 Repo: `make-qr/apoliq.com`  
-URL: https://make-qr.github.io/apoliq.com/
+URL: https://apoliq.com/
 
 ## Liên hệ
 

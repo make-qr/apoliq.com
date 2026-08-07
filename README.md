@@ -4,7 +4,7 @@ Portal kiểu [nifc.gov.vn](https://nifc.gov.vn/) + nội dung dịch vụ/tin t
 
 ## Live
 
-- GitHub Pages: https://make-qr.github.io/apoliq.com/
+- GitHub Pages: https://apoliq.com/
 - Repo: https://github.com/make-qr/apoliq.com
 
 ## Menu dịch vụ (chỉ hiện việc đang có)
