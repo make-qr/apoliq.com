@@ -16,7 +16,7 @@ ADDR = "K2-15 đường Võ Nguyên Giáp, phường Phú Thứ, quận Cái Ră
 BRAND = "Apoliq"
 BRAND_FULL = "APOLIQ SCIENCE AND TECHNOLOGY JOINT STOCK COMPANY"
 BRAND_VI = "Công ty Cổ phần Khoa học và Công nghệ Apoliq"
-SITE = "https://make-qr.github.io/apoliq"
+SITE = "https://make-qr.github.io/apoliq.com"
 
 SERVICE_MAP = {
     "kiem-nghiem-thuc-pham.html": ("dich-vu/kiem-nghiem", "thuc-pham.html", 3),
@@ -72,7 +72,7 @@ def rebrand(text: str) -> str:
         ("TechLAB", BRAND),
         ("TechLab", BRAND),
         ("techlabglobal.com.vn", "apoliq.com"),
-        ("kiemnghiem.techlabglobal.com.vn", "make-qr.github.io/apoliq"),
+        ("kiemnghiem.techlabglobal.com.vn", "make-qr.github.io/apoliq.com"),
         ("0899.551.228", PHONE_D),
         ("0899551228", PHONE_T.replace("+", "")),
         ("tel:0899551228", f"tel:{PHONE_T}"),
@@ -867,7 +867,7 @@ Portal kiểu [nifc.gov.vn](https://nifc.gov.vn/) + nội dung dịch vụ/tin t
 ## Live
 
 - GitHub Pages: {SITE}/
-- Repo: https://github.com/make-qr/apoliq
+- Repo: https://github.com/make-qr/apoliq.com
 
 ## Menu dịch vụ (chỉ hiện việc đang có)
 
