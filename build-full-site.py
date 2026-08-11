@@ -9,8 +9,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 TL = Path("/home/vananh/huong-dan/he-thong-du-an/03_KiemNghiem/kiemnghiem-techlab")
 
-PHONE_D = "0901 339 669"
-PHONE_T = "+84901339669"
+PHONE_D = "0917 333 965"
+PHONE_T = "+84917333965"
 EMAIL = "info@apoliq.com"
 ADDR = "K2-15 Võ Nguyên Giáp, P. Hưng Phú, TP. Cần Thơ"
 BRAND = "Apoliq"
@@ -79,6 +79,9 @@ def rebrand(text: str) -> str:
         ("0907.61.69.69", PHONE_D),
         ("tel:0907616969", f"tel:{PHONE_T}"),
         ("0907616969", PHONE_T.replace("+", "")),
+        ("0901 339 669", PHONE_D),
+        ("+84901339669", PHONE_T),
+        ("84901339669", PHONE_T.replace("+", "")),
         ("info@techlabglobal.com.vn", EMAIL),
         ("contact@techlabglobal.com.vn", EMAIL),
         ("VALAS 217", "ISO/IEC 17025"),

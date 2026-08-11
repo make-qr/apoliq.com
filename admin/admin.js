@@ -266,7 +266,7 @@
 ${content}
                 <div class="news-cta-box">
                     <p><strong>Cần báo giá kiểm nghiệm?</strong> Apoliq — phòng lab ISO/IEC 17025, nhận mẫu CT · HN · HCM.</p>
-                    <div class="news-cta-actions"><a href="../index.html#bao-gia" class="btn btn-hero-primary">Gửi yêu cầu</a><a href="tel:+84901339669" class="btn btn-hero-secondary">Gọi 0901 339 669</a></div>
+                    <div class="news-cta-actions"><a href="../index.html#bao-gia" class="btn btn-hero-primary">Gửi yêu cầu</a><a href="tel:+84917333965" class="btn btn-hero-secondary">Gọi 0917 333 965</a></div>
                 </div>
             </div>
         </article>

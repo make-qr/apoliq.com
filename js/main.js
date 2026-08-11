@@ -1,17 +1,9 @@
 (function () {
-  const PHONE_CT_DISPLAY = "0901 339 669";
-  const PHONE_CT_TEL = "+84901339669";
-  const PHONE_HN_DISPLAY = "0899 551 228";
-  const PHONE_HN_TEL = "+84899551228";
-  const PHONE_HCM_DISPLAY = "0907.61.69.69";
-  const PHONE_HCM_TEL = "+84907616969";
+  const PHONE_CT_DISPLAY = "0917 333 965";
+  const PHONE_CT_TEL = "+84917333965";
   const EMAIL = "info@apoliq.com";
   const ADDR_CT =
     "K2-15 Võ Nguyên Giáp, P. Hưng Phú, TP. Cần Thơ";
-  const ADDR_HN =
-    "Km 11, Quốc lộ 21, Thôn 2, Xã Yên Xuân, Thành phố Hà Nội, Việt Nam";
-  const ADDR_HCM =
-    "Lô II-1, Đường số 1, Nhóm CN2, Khu công nghiệp Tân Bình, Phường Tây Thạnh, Thành phố Hồ Chí Minh, Việt Nam";
 
   function depthPrefix() {
     const depth = Number(document.body.dataset.depth || "0");
@@ -102,18 +94,6 @@
       <p>Hotline: <a href="tel:${PHONE_CT_TEL}">${PHONE_CT_DISPLAY}</a></p>
       <p>Điện thoại: <a href="tel:${PHONE_CT_TEL}">${PHONE_CT_DISPLAY}</a></p>
       <p>Email: <a href="mailto:${EMAIL}">${EMAIL}</a></p>
-    </div>
-    <div>
-      <h3>Chi nhánh Hà Nội</h3>
-      <p>${ADDR_HN}</p>
-      <p>Hotline: <a href="tel:${PHONE_HN_TEL}">${PHONE_HN_DISPLAY}</a></p>
-      <p>Điện thoại: <a href="tel:${PHONE_HN_TEL}">${PHONE_HN_DISPLAY}</a></p>
-    </div>
-    <div>
-      <h3>Chi nhánh Hồ Chí Minh</h3>
-      <p>${ADDR_HCM}</p>
-      <p>Hotline: <a href="tel:${PHONE_HCM_TEL}">${PHONE_HCM_DISPLAY}</a></p>
-      <p>Điện thoại: <a href="tel:${PHONE_HCM_TEL}">${PHONE_HCM_DISPLAY}</a></p>
     </div>
   </div>
   <div class="container footer-links-row">

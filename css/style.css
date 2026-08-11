@@ -881,8 +881,9 @@ form.quote-form select {
 }
 
 .footer-grid-contact {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 1.4rem;
+  max-width: 36rem;
 }
 
 .footer-links-row {
