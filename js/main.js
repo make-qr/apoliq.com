@@ -87,13 +87,14 @@
     const root = depthPrefix();
     return `
 <footer class="site-footer">
-  <div class="container footer-grid footer-grid-contact">
-    <div>
+  <div class="container footer-contact">
+    <div class="footer-contact-main">
       <h3>Trụ sở chính — Cần Thơ</h3>
-      <p>${ADDR_CT}</p>
-      <p>Hotline: <a href="tel:${PHONE_CT_TEL}">${PHONE_CT_DISPLAY}</a></p>
-      <p>Điện thoại: <a href="tel:${PHONE_CT_TEL}">${PHONE_CT_DISPLAY}</a></p>
-      <p>Email: <a href="mailto:${EMAIL}">${EMAIL}</a></p>
+      <p class="footer-address">${ADDR_CT}</p>
+    </div>
+    <div class="footer-contact-meta">
+      <p><span class="footer-label">Hotline</span> <a href="tel:${PHONE_CT_TEL}">${PHONE_CT_DISPLAY}</a></p>
+      <p><span class="footer-label">Email</span> <a href="mailto:${EMAIL}">${EMAIL}</a></p>
     </div>
   </div>
   <div class="container footer-links-row">
