@@ -114,26 +114,6 @@
   function bindSecureQuoteForms() {
     document.querySelectorAll("form.quote-form").forEach((form) => {
       const action = (form.getAttribute("action") || "").trim();
-      // #region agent log
-      fetch("http://127.0.0.1:7684/ingest/50fec90f-3a5c-4043-90b3-1fb261f9789c", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "b9a7e9" },
-        body: JSON.stringify({
-          sessionId: "b9a7e9",
-          runId: "post-fix",
-          hypothesisId: "H1",
-          location: "js/main.js:bindSecureQuoteForms",
-          message: "quote form action before normalize",
-          data: {
-            path: location.pathname,
-            actionBefore: action,
-            insecureBefore: /^(mailto:|javascript:|http:)/i.test(action),
-          },
-          timestamp: Date.now(),
-        }),
-      }).catch(() => {});
-      // #endregion
-
       // Chrome disables autofill on mailto:/http: form actions even on HTTPS pages.
       if (/^(mailto:|javascript:|http:)/i.test(action) || action === "") {
         form.setAttribute("action", "#");
@@ -166,26 +146,6 @@
         const body = encodeURIComponent(lines.join("\n") || "(Không có nội dung)");
         window.location.href = `mailto:${EMAIL}?subject=${subject}&body=${body}`;
       });
-
-      // #region agent log
-      fetch("http://127.0.0.1:7684/ingest/50fec90f-3a5c-4043-90b3-1fb261f9789c", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "b9a7e9" },
-        body: JSON.stringify({
-          sessionId: "b9a7e9",
-          runId: "post-fix",
-          hypothesisId: "H1",
-          location: "js/main.js:bindSecureQuoteForms",
-          message: "quote form action after normalize",
-          data: {
-            path: location.pathname,
-            actionAfter: form.getAttribute("action"),
-            insecureAfter: /^(mailto:|javascript:|http:)/i.test(form.getAttribute("action") || ""),
-          },
-          timestamp: Date.now(),
-        }),
-      }).catch(() => {});
-      // #endregion
     });
   }
 
