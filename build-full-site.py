@@ -169,6 +169,11 @@ def extract_main(html: str) -> tuple[str, str, str]:
     # remove Zalo icon images that 404
     body = re.sub(r'<img[^>]*Logo-zalo[^>]*>', "", body, flags=re.I)
     body = re.sub(r'<a[^>]*btn-hero-zalo[^>]*>[\s\S]*?</a>', "", body, flags=re.I)
+    # never keep TechLAB page chrome — portal shell already mounts header/footer
+    body = re.sub(r"<body[^>]*>\s*", "", body, flags=re.I)
+    body = re.sub(r"</body>\s*", "", body, flags=re.I)
+    body = re.sub(r"<header\b[^>]*>[\s\S]*?</header>\s*", "", body, flags=re.I)
+    body = re.sub(r"<footer\b[^>]*>[\s\S]*?</footer>\s*", "", body, flags=re.I)
     return title, desc, body
 
 
