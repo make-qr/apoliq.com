@@ -156,7 +156,7 @@ def extract_main(html: str) -> tuple[str, str, str]:
     # simplify form to mailto
     body = re.sub(
         r'<form class="quote-form"[^>]*>',
-        f'<form class="quote-form" action="mailto:{EMAIL}" method="post" enctype="text/plain">',
+        f'<form class="quote-form" action="#" method="post">',
         body,
         count=1,
     )
@@ -720,7 +720,7 @@ def write_portal_pages(news_items: list[tuple[str, str]]):
         <div><strong>Điện thoại</strong><br><a href="tel:{PHONE_T}">{PHONE_D}</a></div>
         <div><strong>Email</strong><br><a href="mailto:{EMAIL}">{EMAIL}</a></div>
       </div>
-      <form class="quote-form" action="mailto:{EMAIL}" method="post" enctype="text/plain">
+      <form class="quote-form" action="#" method="post">
         <label>Họ tên<input name="name" required></label>
         <label>Số điện thoại<input name="phone" required></label>
         <label>Email<input type="email" name="email"></label>

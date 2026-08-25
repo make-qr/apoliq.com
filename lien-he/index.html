@@ -33,12 +33,12 @@
 
     <div class="content-grid">
       <div>
-        <form class="quote-form" action="mailto:info@apoliq.com" method="post" enctype="text/plain">
-          <label>Họ tên<input name="name" required></label>
-          <label>Số điện thoại<input name="phone" required></label>
-          <label>Email<input type="email" name="email"></label>
-          <label>Nhóm dịch vụ<select name="service"><option>Kiểm nghiệm</option><option>Chứng nhận</option><option>Môi trường</option><option>Khác</option></select></label>
-          <label>Nội dung<textarea name="message" rows="6" required placeholder="Tên sản phẩm, chỉ tiêu, số mẫu..."></textarea></label>
+        <form class="quote-form" action="#" method="post">
+          <label>Họ tên<input name="name" type="text" autocomplete="name" required></label>
+          <label>Số điện thoại<input name="phone" type="tel" autocomplete="tel" required></label>
+          <label>Email<input type="email" name="email" autocomplete="email"></label>
+          <label>Nhóm dịch vụ<select name="service" autocomplete="organization-title"><option>Kiểm nghiệm</option><option>Chứng nhận</option><option>Môi trường</option><option>Khác</option></select></label>
+          <label>Nội dung<textarea name="message" rows="6" required placeholder="Tên sản phẩm, chỉ tiêu, số mẫu..." autocomplete="off"></textarea></label>
           <button class="btn btn-primary" type="submit">Gửi yêu cầu</button>
         </form>
       </div>
@@ -52,6 +52,6 @@
   </div></section>
 
   <div id="site-footer"></div>
-  <script src="../js/main.js?v=20260811c"></script>
+  <script src="../js/main.js?v=20260825a"></script>
 </body>
 </html>

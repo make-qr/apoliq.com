@@ -111,11 +111,91 @@
 </footer>`;
   }
 
+  function bindSecureQuoteForms() {
+    document.querySelectorAll("form.quote-form").forEach((form) => {
+      const action = (form.getAttribute("action") || "").trim();
+      // #region agent log
+      fetch("http://127.0.0.1:7684/ingest/50fec90f-3a5c-4043-90b3-1fb261f9789c", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "b9a7e9" },
+        body: JSON.stringify({
+          sessionId: "b9a7e9",
+          runId: "post-fix",
+          hypothesisId: "H1",
+          location: "js/main.js:bindSecureQuoteForms",
+          message: "quote form action before normalize",
+          data: {
+            path: location.pathname,
+            actionBefore: action,
+            insecureBefore: /^(mailto:|javascript:|http:)/i.test(action),
+          },
+          timestamp: Date.now(),
+        }),
+      }).catch(() => {});
+      // #endregion
+
+      // Chrome disables autofill on mailto:/http: form actions even on HTTPS pages.
+      if (/^(mailto:|javascript:|http:)/i.test(action) || action === "") {
+        form.setAttribute("action", "#");
+      }
+      form.removeAttribute("enctype");
+      form.setAttribute("method", "post");
+
+      const autoMap = {
+        name: "name",
+        "Họ và tên": "name",
+        phone: "tel",
+        "Số điện thoại": "tel",
+        email: "email",
+        Email: "email",
+      };
+      form.querySelectorAll("input, textarea, select").forEach((el) => {
+        if (el.getAttribute("autocomplete")) return;
+        const key = el.getAttribute("name") || el.getAttribute("data-field") || "";
+        if (autoMap[key]) el.setAttribute("autocomplete", autoMap[key]);
+      });
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const lines = [];
+        new FormData(form).forEach((value, key) => {
+          const v = String(value || "").trim();
+          if (v) lines.push(`${key}: ${v}`);
+        });
+        const subject = encodeURIComponent("Yêu cầu báo giá — Apoliq");
+        const body = encodeURIComponent(lines.join("\n") || "(Không có nội dung)");
+        window.location.href = `mailto:${EMAIL}?subject=${subject}&body=${body}`;
+      });
+
+      // #region agent log
+      fetch("http://127.0.0.1:7684/ingest/50fec90f-3a5c-4043-90b3-1fb261f9789c", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "b9a7e9" },
+        body: JSON.stringify({
+          sessionId: "b9a7e9",
+          runId: "post-fix",
+          hypothesisId: "H1",
+          location: "js/main.js:bindSecureQuoteForms",
+          message: "quote form action after normalize",
+          data: {
+            path: location.pathname,
+            actionAfter: form.getAttribute("action"),
+            insecureAfter: /^(mailto:|javascript:|http:)/i.test(form.getAttribute("action") || ""),
+          },
+          timestamp: Date.now(),
+        }),
+      }).catch(() => {});
+      // #endregion
+    });
+  }
+
   function mountShell() {
     const headerMount = document.getElementById("site-header");
     const footerMount = document.getElementById("site-footer");
     if (headerMount) headerMount.innerHTML = headerHTML();
     if (footerMount) footerMount.innerHTML = footerHTML();
+
+    bindSecureQuoteForms();
 
     const navInner = document.getElementById("navInner");
     const navToggle = document.getElementById("navToggle");

@@ -603,7 +603,7 @@ def main():
           <div><strong>Điện thoại</strong><br><a href="tel:+84917333965">0917 333 965</a></div>
           <div><strong>Email</strong><br><a href="mailto:info@apoliq.com">info@apoliq.com</a></div>
         </div>
-        <form class="quote-form" action="mailto:info@apoliq.com" method="post" enctype="text/plain">
+        <form class="quote-form" action="#" method="post">
           <label>Họ tên<input name="name" required placeholder="Nguyễn Văn A"></label>
           <label>Số điện thoại<input name="phone" required placeholder="+84..."></label>
           <label>Email<input type="email" name="email" placeholder="ban@email.com"></label>
