@@ -61,10 +61,14 @@
           <li><a href="${root}dich-vu/kiem-nghiem/dinh-duong.html">· Dinh dưỡng / ghi nhãn</a></li>
           <li><a href="${root}dich-vu/kiem-nghiem/khac.html">· Dịch vụ khác</a></li>
           <li><a href="${root}dich-vu/chung-nhan/index.html"><strong>Chứng nhận</strong></a></li>
+          <li><a href="${root}dich-vu/chung-nhan/iso-9001.html">· ISO 9001</a></li>
           <li><a href="${root}dich-vu/chung-nhan/haccp.html">· HACCP</a></li>
           <li><a href="${root}dich-vu/chung-nhan/iso-22000.html">· ISO 22000</a></li>
           <li><a href="${root}dich-vu/chung-nhan/vietgap.html">· VietGAP</a></li>
           <li><a href="${root}dich-vu/chung-nhan/organic.html">· Organic</a></li>
+          <li><a href="${root}dich-vu/chung-nhan/chung-nhan-san-pham.html">· Sản phẩm QCVN</a></li>
+          <li><a href="${root}dich-vu/chung-nhan/ocop.html">· OCOP / chuỗi</a></li>
+          <li><a href="${root}dich-vu/chung-nhan/dao-tao.html">· Đào tạo</a></li>
           <li><a href="${root}dich-vu/chung-nhan/halal.html">· Halal</a></li>
           <li><a href="${root}dich-vu/chung-nhan/smeta-sedex.html">· SMETA / SEDEX</a></li>
           <li><a href="${root}dich-vu/moi-truong/index.html"><strong>Môi trường</strong></a></li>
