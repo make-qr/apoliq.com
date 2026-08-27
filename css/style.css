@@ -265,6 +265,28 @@ img:not([width]):not([height]):not(.news-thumb-img):not(.media-frame img) {
   z-index: 50;
 }
 
+.dropdown-compact {
+  min-width: 280px;
+}
+
+.dropdown-compact a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.7rem 1rem;
+}
+
+.dropdown-hint {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: #6b7c80;
+  line-height: 1.35;
+}
+
+.dropdown-compact a:hover .dropdown-hint {
+  color: #4d6368;
+}
+
 .nav-list > li:hover > .dropdown,
 .nav-list > li:focus-within > .dropdown,
 .nav-list > li.open > .dropdown {

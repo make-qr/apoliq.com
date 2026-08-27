@@ -49,31 +49,10 @@
       <li><a href="${root}nang-luc/index.html">Năng lực</a></li>
       <li>
         <button type="button" aria-expanded="false">Dịch vụ ▾</button>
-        <ul class="dropdown">
-          <li><a href="${root}dich-vu/kiem-nghiem/index.html"><strong>Kiểm nghiệm</strong></a></li>
-          <li><a href="${root}dich-vu/kiem-nghiem/huong-dan-gui-mau.html">· Hướng dẫn gửi mẫu</a></li>
-          <li><a href="${root}dich-vu/kiem-nghiem/thuc-pham.html">· Thực phẩm</a></li>
-          <li><a href="${root}dich-vu/kiem-nghiem/banh-keo.html">· Bánh kẹo</a></li>
-          <li><a href="${root}dich-vu/kiem-nghiem/nuoc-uong.html">· Nước uống</a></li>
-          <li><a href="${root}dich-vu/kiem-nghiem/duoc-pham.html">· Dược phẩm / TPCN</a></li>
-          <li><a href="${root}dich-vu/kiem-nghiem/my-pham.html">· Mỹ phẩm</a></li>
-          <li><a href="${root}dich-vu/kiem-nghiem/thuc-an-chan-nuoi.html">· Thức ăn chăn nuôi</a></li>
-          <li><a href="${root}dich-vu/kiem-nghiem/dinh-duong.html">· Dinh dưỡng / ghi nhãn</a></li>
-          <li><a href="${root}dich-vu/kiem-nghiem/khac.html">· Dịch vụ khác</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/index.html"><strong>Chứng nhận</strong></a></li>
-          <li><a href="${root}dich-vu/chung-nhan/iso-9001.html">· ISO 9001</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/haccp.html">· HACCP</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/iso-22000.html">· ISO 22000</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/vietgap.html">· VietGAP</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/organic.html">· Organic</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/chung-nhan-san-pham.html">· Sản phẩm QCVN</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/ocop.html">· OCOP / chuỗi</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/dao-tao.html">· Đào tạo</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/halal.html">· Halal</a></li>
-          <li><a href="${root}dich-vu/chung-nhan/smeta-sedex.html">· SMETA / SEDEX</a></li>
-          <li><a href="${root}dich-vu/moi-truong/index.html"><strong>Môi trường</strong></a></li>
-          <li><a href="${root}dich-vu/moi-truong/quan-trac.html">· Quan trắc môi trường</a></li>
-          <li><a href="${root}dich-vu/moi-truong/tu-van.html">· Tư vấn môi trường</a></li>
+        <ul class="dropdown dropdown-compact">
+          <li><a href="${root}dich-vu/kiem-nghiem/index.html"><strong>Kiểm nghiệm</strong><span class="dropdown-hint">Thực phẩm, nước, TACN, FCM…</span></a></li>
+          <li><a href="${root}dich-vu/chung-nhan/index.html"><strong>Chứng nhận / Hợp quy</strong><span class="dropdown-hint">ISO, VietGAP, OCOP, hợp quy TACN…</span></a></li>
+          <li><a href="${root}dich-vu/moi-truong/index.html"><strong>Môi trường</strong><span class="dropdown-hint">Quan trắc &amp; tư vấn hồ sơ</span></a></li>
         </ul>
       </li>
       <li><a href="${root}tin-tuc/index.html">Tin tức</a></li>
